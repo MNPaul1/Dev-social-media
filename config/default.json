@@ -1,4 +1,6 @@
 {
     "mongoURI":"mongodb+srv://Mahan:Mahan123@devapp.wjj33md.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret":"MyJwtSecret"
+    "jwtSecret":"MyJwtSecret",
+    "githubClientId":"491679a04e826aa8428e",
+    "giithubSecret":"eb0ff4cacdc27542708342b0a5897d329bf2206d"
 }
