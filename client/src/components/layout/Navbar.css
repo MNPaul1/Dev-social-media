@@ -1,0 +1,48 @@
+.navBar{
+    background-color: #343333;
+    color: white;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 0.2px solid rgb(182, 182, 182);
+}
+.appName{
+    display: flex;
+    font-size: x-large;
+}
+.pages{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+.menu{
+    position: absolute;
+    right: 3%;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .pages{
+        flex-direction: column;
+        position: absolute;
+        top: 6vh;
+        width: 50%;
+        right: 0;
+        text-align: center;
+        background-color: #343333;
+        z-index: 1;
+        display: none;
+    }
+    .pages>*{
+        padding: 15px;
+        border: 1px solid rgb(164, 163, 163);
+    }
+    .menu{
+        display: block;
+    }
+}
